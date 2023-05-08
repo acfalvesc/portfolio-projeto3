@@ -134,12 +134,18 @@ ul li {
 ul li img {
     width: 150px;
     height: 150px;
-    transition: scale 0.4s ease;
+    transition: all 0.4s;
+}
+
+.section-2 :hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
     cursor: pointer;
 }
 
-ul li img :hover {
-    scale: 1.3;
+.section-3 :hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
 }
 
 .hr-1 {
